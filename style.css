@@ -95,18 +95,56 @@ div.img-article{
 #maglione{
     background-image: url(img/6.webp);
 }
+/* --DISCOUNT POSITION--*/
+div.discount{
+    position: absolute;
+    left: 0;
+    bottom: 130px;
+}
+span.percentuale,span.sostenibilita{
+    color: white;
+    padding: .3rem;
+}
+span.percentuale{
+    background-color: red;
+    margin-right: .2rem;
+}
+span.sostenibilita{
+    background-color: green;
+}
+/* --FAVORITE--*/
+div.favorite-heart{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: white;
+    font-size: 2rem;
+    border-radius: 5px 0  0 5px ;
+    cursor: pointer;
+}
+div.favorite-heart:hover{
+    color: red;
+}
 /*--ITEMS DETAILS--*/
 span.brand{
-
+    font-size: .8rem;
 }
 span.description{
-
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 span.price{
-
+    margin-top: .5rem;
+    font-size: .8rem;
+    color: red;
 }
 span.sale{
-
+    margin-left: .3rem;
+    color: grey;
+    text-decoration: line-through;
 }
 /* --FOOTER-- */
 footer{
