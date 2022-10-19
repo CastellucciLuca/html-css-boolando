@@ -28,21 +28,25 @@ header{
 }
 section.nav-bar{
     height: 100%;
-    background-color: aqua;
-    border: 1px black solid;
 }
 div.logo{
     width: 40%;
     height: 100%;
-    border: 1px black solid;
+}
+div.logo img{
+    width: 150px;
+}
+ul.nav li{
+    margin: 0 .3rem;
+    display: inline;
+}
+ul.nav a{
+    text-decoration: none;
+    color: white;
 }
 nav.initial-menu,div.icon{
     width: 30%;
     height: 100%;
-}
-section.nav-bar ul li{
-    margin: 0.7rem;
-    display: inline;
 }
 nav.initial-menu{
     justify-content: flex-start;
