@@ -71,29 +71,43 @@ div.img-article{
     background-size: cover;
     background-repeat: no-repeat;
 }
-/* ARTICLE ID IMG */
+/*--ARTICLE ID IMG --*/
 #relaxed-tee{
     background-image: url(img/1.webp)
 }
-
 #roses-tee{
     background-image: url(img/2.webp);
 }
-
 #pastello{
     background-image: url(img/3.webp);
 }
-
 #tee-unisex{
     background-image: url(img/4.webp);
 }
-
 #strip-bodice{
     background-image: url(img/5.webp);
 }
-
 #maglione{
     background-image: url(img/6.webp);
+}
+/*--ARTICLE IMG HOVER--*/
+article.shop-article:hover #relaxed-tee{
+    background-image: url(img/1b.webp);
+}
+article.shop-article:hover #roses-tee{
+    background-image: url(img/2b.webp);
+}
+article.shop-article:hover #pastello{
+    background-image: url(img/3b.webp);
+}
+article.shop-article:hover #tee-unisex{
+    background-image: url(img/4b.webp);
+}
+article.shop-article:hover #strip-bodice{
+    background-image: url(img/5b.webp);
+}
+article.shop-article:hover #maglione{
+    background-image: url(/img/6b.webp);
 }
 /* --DISCOUNT POSITION--*/
 div.discount{
