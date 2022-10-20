@@ -74,7 +74,7 @@ article.shop-article{
 }
 div.img-article{
     width: 100%;
-    height: 85%;
+    height: 95%;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -170,9 +170,9 @@ span.sale{
 /*--FOOTER--*/
 footer{
     width: 100%;
-    height: 90px;
+    height: 100px;
     background-color: #1a1a1a;
-    margin-top: 3rem;
+    margin-top: 8rem;
 }
 .footer-section{
     color: white;
